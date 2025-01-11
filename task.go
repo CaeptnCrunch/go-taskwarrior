@@ -17,4 +17,5 @@ type Task struct {
 	End         string  `json:"end,omitempty"`
 	Entry       string  `json:"entry,omitempty"`
 	Modified    string  `json:"modified,omitempty"`
+    Depends   []string  `json:"depends"`
 }
